@@ -1,0 +1,28 @@
+{
+  "name": "orderly-chaos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlie-J-Martin/orderly-chaos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charlie-J-Martin/orderly-chaos/issues"
+  },
+  "homepage": "https://github.com/Charlie-J-Martin/orderly-chaos#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
